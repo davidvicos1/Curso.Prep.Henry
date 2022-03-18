@@ -3,18 +3,21 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
+  return  array[0];
 }
 
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
+  return  array[array.length-1 ]
 }
 
 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
+  return array.length 
 }
 
 
@@ -23,6 +26,11 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
+  let arreglo =[1, 2, 3 ,4 ,5]
+  for  (let alf=0;alf>arreglo.length-1;arreglo.pop()+1)
+    return alf  
+  
+  
 }
 
 
@@ -136,7 +144,7 @@ function breakStatement(numero) {
   //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
   //Guardar cada nuevo valor en un array. 
   //Devolver el array
-  //Si en algún momento el valor de la suma y la cantidad de iteraciones coinciden, debe interrumpirse la ejecución y 
+  //Si en algún momento el valor de la suma y la cantidad de iteraciones coinciden, break x==y {return abajo} debe interrumpirse la ejecución y 
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
@@ -145,9 +153,9 @@ function breakStatement(numero) {
 
 function continueStatement(numero) {
   //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
-  //Guardar cada nuevo valor en un array.    
-  //Devolver el array
-  //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
+  //Guardar cada nuevo valor en un array.   .pop 
+  //Devolver el array  .klñañlskdñlaskdañlsd  return 
+  //Cuando el número de iteraciones alcance el valor 5,  break  case   for while no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
 }
