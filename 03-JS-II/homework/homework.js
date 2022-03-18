@@ -6,11 +6,14 @@ function obtenerMayor(x, y) {
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
   
-  if (x > y){
-    return x
-  }
-  else y
-  }
+  if (x=== y){ return x || y;}
+    
+     else if  (x > y) {return x;}
+      else return y;
+           
+    }
+    
+  
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
@@ -74,16 +77,16 @@ function esDiezOCinco(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
-if (numero == 10 ||numero == 5 ){true}
-  else false
+if (numero === 10 || numero === 5 ){return true}
+  else {return false} 
 }
 function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
 
-if (numero< 50 && numero > 20){true}
-    else {false}
+if (numero > 20 && numero< 50  ){return true}
+    else {return false}
 }
 function esEntero(numero ) {
   // Devuelve "true" si "numero" es un entero (int/integer)
@@ -94,8 +97,8 @@ function esEntero(numero ) {
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
 
-if (numero % 1 ===0 ){true}
-  else false
+if (numero % 1 ===0 ){return true}
+  else {return false}
 }
 function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3, devuelve "fizz"
@@ -103,9 +106,9 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
 
-if (numero % 3===0 ){return "fizz"}
+if (numero%3===0 && numero%5===0 ){return "fizzbuzz"}
     else if (numero % 5===0){return "buzz"}
-      else if (numero%15===0 ){return "fizzbuzz"}
+      else if (numero % 3===0 ){return "fizz"}
   else return numero 
 }
 function operadoresLogicos(num1, num2, num3) {
@@ -166,7 +169,7 @@ function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
   if (numero > 99 && numero < 1000){return true }
-      else false;
+      else return false;
 }
 
 function doWhile(numero) {
@@ -182,8 +185,7 @@ function doWhile(numero) {
   while(i < 8);
   return a;
 }
-//aaaaa
-//asdsadasdasddsad
+
 
 // No modificar nada debajo de esta línea
 // --------------------------------
