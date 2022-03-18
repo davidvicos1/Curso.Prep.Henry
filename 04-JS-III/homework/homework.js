@@ -26,9 +26,10 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  let arreglo =[1, 2, 3 ,4 ,5]
-  for  (let alf=0;alf>arreglo.length-1;arreglo.pop()+1)
-    return alf  
+  let arreglo =[1, 2, 3 ,4 ,5];
+  let array =[];
+  for  (let array=[] ; array>arreglo.length-1 ; array=arreglo.pop()+1)
+    return array
   
   
 }
